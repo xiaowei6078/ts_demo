@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "outDir": "./dist/",
+        "target": "es5",
+        "allowJs": true,
+        "sourceMap":true, // 输出 Source Map 方便调试
+        "importHelpers":true // 减少代码的冗余，类似：@babel/plugin-transform-runtime
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "./node_modules"
+    ]
+}
